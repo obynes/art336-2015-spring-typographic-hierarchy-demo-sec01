@@ -1,6 +1,8 @@
 body {
     color: $color;
     @include body-font-light; 
+    font-size: 22px;
+    line-height: 1.45;
     margin: 0 auto;
     //margin: top/bottom left/right;
     max-width: 600px; 
@@ -9,5 +11,16 @@ body {
 
 h1, h2, h3, h4 {
     @include headline-font;
-    line-height: 1;
+    //line-height: 1;
+}
+
+h1 {
+    font-size: 4em;
+    margin: 1em 0 1.5em 0;
+    //margin: top right bottom left;
+}
+
+h1 + p {
+    margin: 0 0 0 0;
+     //margin: top right bottom left;
 }
