@@ -58,7 +58,7 @@ i,em {
 }
 
 b, strong {
-    @include body-font-light-bold;
+    @include body-font-bold;
 }
 
 a {
@@ -92,11 +92,11 @@ blockquote p {
 }
 
 blockquote cite {
-    @include body-font-light-bold;
+    @include body-font-light;
 }
 
 dt {
-      @include body-font-light-bold;
+      @include body-font-light;
 }
 
 dd {
@@ -116,6 +116,7 @@ ol {
 
 ol li {
     margin-bottom: em(8px);
+}
 
 p + ul, p + ol {
     margin-top: -18px;   

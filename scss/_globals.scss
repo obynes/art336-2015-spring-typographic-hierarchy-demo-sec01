@@ -1,25 +1,25 @@
-@import url(http://fonts.googleapis.com/css?family=Open+Sans:300italic,300,600|Open+Sans+Condensed:700);
-
-@mixin body-font-light {
-    font-family: 'Open Sans', helvetica, verdana, sans-serif;
-    font-style: normal;
-    font-weight: 300;   
-}
+@import url(http://fonts.googleapis.com/css?family=PT+Sans:700|Roboto:100,300italic,900);
 
 @mixin body-font-italic {
-    font-family: 'Open Sans', helvetica, verdana, sans-serif;
+    font-family: 'Roboto', sans-serif;
     font-style: italic;
     font-weight: 300;   
 }
 
-@mixin body-font-light-bold {
-    font-family: 'Open Sans', helvetica, verdana, sans-serif;
+@mixin body-font-light {
+    font-family: 'Roboto', sans-serif;
     font-style: normal;
-    font-weight: 600;   
+    font-weight: 100;   
+}
+
+@mixin body-font-bold {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 900;   
 }
 
 @mixin headline-font {
-    font-family: 'Open Sans Condensed', helvetica, verdana, sans-serif;
+    font-family: 'PT Sans', sans-serif;
     font-style: normal;
     font-weight: 700;   
 }
